@@ -17,9 +17,7 @@
 " rel="stylesheet">
 </head>
 <body>
-    <div class="preloader">
-        <img src="preloder.gif" alt="Loading">
-    </div>
+
     <div id="progress">
         <span id="progress-value">&#x1F815;</span>
     </div>
@@ -149,11 +147,12 @@
                           You must agree before submitting.
                         </div>
                       </div>
-                    </div>
+                    </div> 
+                      <span id="success"></span>
                     <div class="col-12">
                      <button class="btn btn-color text-white"  type="submit"  name="submit" > সাবমিট</button>
                     </div>
-                    <span id="success"></span>
+                 
                   </form>
             </div>
             <div class="col-md-4">
@@ -404,7 +403,7 @@
         .then(response => {
             success.innerHTML = "আপনার ফ্রমটি ‍সফলভাবে সাবমিট হয়েছে......."
              setTimeout(function(){
-                success.innerHTML = ""
+                success.innerHTML = "<h4 style='color:#ff2100;'>আপনার ফ্রমটি ‍সফলভাবে সাবমিট হয়েছে.......</h4>"
              },10)
         form.reset();
         })
