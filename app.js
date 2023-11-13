@@ -8,17 +8,7 @@ $(window).scroll(function(){
          $('.topmenu').removeClass('sticky_header');
     }
     });  
-    let visitorCount = localStorage.getItem('visitorCount') || 0;
-        
-    // Update the counter element on the page.
-    document.getElementById('counter').textContent = visitorCount;
 
-    // Increment the visitor count and update the page and local storage.
-    function incrementCounter() {
-        visitorCount++;
-        document.getElementById('counter').textContent = visitorCount;
-        localStorage.setItem('visitorCount', visitorCount);
-    }
 // When the window finishes loading
 window.addEventListener('load', function() {
     // Hide the preloader
