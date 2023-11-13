@@ -2222,7 +2222,7 @@ swiper-container {
 
 
 
-.content {
+.contex {
 	position: relative;
 	top: 0px;
 	background: linear-gradient(to top,#fff, #0009,transparent);
@@ -2233,7 +2233,7 @@ swiper-container {
 }
 
 
-.image:hover .content , image:hover {
+.image:hover .contex , image:hover {
 	position: relative;
 	top: -79px;
 	background: linear-gradient(to top,#fff, #0009,#0009);

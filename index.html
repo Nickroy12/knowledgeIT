@@ -1617,11 +1617,7 @@
             <div class="col-md-8">
                 <p class="my-2">Copyright © 2023 Knowledge IT Institute. All right reserved | <a href="site-map.html" class="text-warning">SiteMap</a></p>  </div>
             </div>
-            <div class="col-md-2">
-             <div class="visitor_count ">
-                <h4>Site Visitors</h4>
-                <h6 id="counter" class="visitors">0</h6>
-             </div>
+
              
             </div>
 
@@ -1629,6 +1625,9 @@
         
       
 </section>
+<script src="owl-carosul.js"></script>
+     <script src="countdown.js"></script>
+     <script type="module" src="onscroll.js"></script>
  <script src="https://code.jquery.com/jquery-1.11.3.min.js" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
      <script src="magnific.popup.min.js"></script>
@@ -1642,44 +1641,6 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
    
-     
-     <script>
-        $('.counte').counterUp({
-    delay: 20,
-    time: 3000
-});
 
-$(".carousel").owlCarousel({
-           margin: 20,
-           loop: true,
-           autoplay: true,
-           autoplayTimeout: 1000,
-           autoplayHoverPause: true,
-           responsive: {
-             0:{
-               items:1,
-               nav: false,
-               margin:20
-               
-             },
-             600:{
-               items:2,
-               nav: false
-             },
-             1000:{
-               items:3,
-               nav: false
-             }
-           }
-         });
-
-
-        // Call the incrementCounter function to update the counter on each page load.
-        incrementCounter();
-window.onload = function() {
-            window.scrollTo(0, 0);
-        };
-
-    </script>
 </body>
 </html>
